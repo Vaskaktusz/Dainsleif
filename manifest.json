@@ -1,0 +1,14 @@
+{
+  "name": "Dainsleif",
+  "short_name": "Dainsleif",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "400x400",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }]
+}
