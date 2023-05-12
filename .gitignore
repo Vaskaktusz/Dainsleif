@@ -15,4 +15,4 @@ node_modules
 .history
 coverage/
 build/
-Dainsleif.iml
+*.iml
