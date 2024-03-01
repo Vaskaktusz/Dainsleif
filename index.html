@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vaskaktusz</title>
+</head>
+<body>
+<h2>Dainsleif</h2>
+<table id="dataTable">
+    <thead>
+    <tr>
+        <th>Script</th>
+        <th>File</th>
+        <th>Folder</th>
+        <th>Location</th>
+        <th>Password</th>
+        <th>Username</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Table rows will be added dynamically -->
+    </tbody>
+</table>
+<form id="crudForm">
+    <label>Script:</label>
+    <input type="text" id="script">
+    <label>File:</label>
+    <input type="text" id="file">
+    <label>Folder:</label>
+    <input type="text" id="folder">
+    <label>Location:</label>
+    <input type="text" id="location">
+    <label>Password:</label>
+    <input type="text" id="password">
+    <label>Username:</label>
+    <input type="text" id="username">
+    <button class="button" type="button" onclick="addRow()">Add</button>
+</form>
+<script src="scripts.js"></script>
+</body>
+</html>
